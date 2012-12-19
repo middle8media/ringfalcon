@@ -9,7 +9,7 @@ $(function() {
     jPanelMenu = $.jPanelMenu({
         menu: 'header .credits',
         animated: true,
-        openPosition: "320px"
+        openPosition: "300px"
         
     });
     jPanelMenu.on();
