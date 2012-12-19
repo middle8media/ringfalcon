@@ -26,10 +26,12 @@ header .credits ul li{
   @include border-radius(3px);
 }
 
-/*.credits ul {
-  padding-left: 10px;
-  margin-bottom: 40px;
-}*/
+#menu-trigger-close {
+  position: relative;
+  top: -10px;
+  left: 13px;
+}
+
 
 .m8m-logo {
   margin-bottom: 20px;
