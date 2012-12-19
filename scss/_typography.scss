@@ -1,0 +1,52 @@
+body {
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  line-height: 1.3em;
+}
+
+p, ul li {
+  letter-spacing: .1em;
+}
+
+small {
+  font-size: .8em;
+}
+
+h1 {
+  color: $yellow;
+  font-family: 'decade';
+  font-size: 2em;
+  letter-spacing: .1em;
+  padding-bottom: 20px;
+}
+
+h2 {
+  font-family: 'decade';
+  font-size: 1.5em;
+  letter-spacing: .1em;
+  line-height: 1.5em;
+  padding-bottom: 20px;
+}
+
+h3 {
+  font-family: 'decade';
+  font-size: 1.2em;
+  letter-spacing: .1em;
+}
+
+.credits h2 {
+  text-align: center;
+}
+
+.credits h3 {
+  padding: 0px 0px 10px;
+}
+
+.thanks p {
+  padding-bottom: 10px;
+}
+
+.synopsis h2 {
+  color: rgba(245, 245, 245, .7);
+  line-height: 1em;
+}

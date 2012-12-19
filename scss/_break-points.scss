@@ -1,0 +1,47 @@
+@include at-breakpoint(12 76.4375em) {
+  .page-wrap {
+    @include container;
+  }
+  .video {
+    @include span-columns(12,12);
+    margin-bottom: 50px;
+  }
+  .synopsis {
+    @include span-columns(12,12);
+    padding-left: 0;
+
+  }
+}
+
+@include at-breakpoint(12 30em) {
+  h1{
+    font-size: 1.7em;
+  }
+  .synopsis h2 {
+    font-size: 1.2em;
+  }
+
+  [data-icon]::before {
+  font-size: 20px;
+  }
+
+  .menu-trigger {
+    top: -3px;
+    left: -1px;
+  }
+  
+}
+
+@include at-breakpoint(12 20em) {
+  body {
+    font-size: .9em;
+    line-height: 1.3em;
+  }
+
+  .video-wrap, .poster-wrap {
+     padding: 10px;
+  }
+
+}
+
+

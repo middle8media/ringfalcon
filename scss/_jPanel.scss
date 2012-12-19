@@ -1,0 +1,52 @@
+/*
+******************************
+* JPanel
+******************************
+*/
+
+.jPanelMenu header .credits {
+  text-indent: -9999px;
+  position: absolute;
+  display: none;
+}
+
+header .credits ul li{
+  display: inline;
+}
+
+.menu-trigger {
+  background: $blueDuller;
+  color: $whiteSmoke;
+  @include box-shadow(rgba(black, 0.4) 0 0 3px inset);
+  font-size: 15px;
+  padding: 11px 8px 10px;
+  position: relative;
+  top: 5px;
+  left: 5px;
+  @include border-radius(3px);
+}
+
+/*.credits ul {
+  padding-left: 10px;
+  margin-bottom: 40px;
+}*/
+
+.m8m-logo {
+  margin-bottom: 20px;
+  img {
+    width: 90%;
+    position: relative;
+    top: 10px;
+    left: 12px;
+    margin-bottom: 40px;
+  }
+}
+
+.cast, .collaborators, .thanks {
+  background: $brownDull;
+  margin: 10px 10px 40px;
+  padding: 10px;
+  border: 2px solid $whiteSmoke;
+  @include border-radius(10px);
+  @include box-shadow(rgba(black, 0.4) 0 0 3px inset);
+}
