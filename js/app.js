@@ -35,7 +35,5 @@ $(function() {
 });
 
 // dynamic copywrite date
-$(document).ready(function(){
-    var date = new Date();
-    $('.year').html(date.getFullYear());
-});
+var date = new Date();
+$('.year').html(date.getFullYear());
