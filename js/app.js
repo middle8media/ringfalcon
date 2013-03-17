@@ -34,7 +34,7 @@ $(function() {
     });
 });
 
-// dynamic footer copywrite date
+// dynamic copywrite date
 $(document).ready(function(){
     var date = new Date();
     $('.year').html(date.getFullYear());
